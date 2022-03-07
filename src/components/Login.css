@@ -1,0 +1,116 @@
+.container{
+    padding-left: 0 !important;
+}
+
+.card {
+  width: 400px ;
+  height: 400px;
+  padding: 24px;
+  box-sizing: border-box;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10em;
+  bottom: -13em;
+  display: flex;
+}
+
+.email{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-small;
+    margin-top: 10px;
+    padding: 17px;
+    position: relative;
+    top: 2em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.password{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-small;
+    margin-top: 10px;
+    padding: 17px;
+    position: relative;
+    top: -5.5em;
+    color: rgba(0, 0, 0, 1);
+}
+
+input[type="email"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #989898;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 10.4px;
+    position: relative;
+    top: 0.4em;
+  }
+
+input[type="password"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #989898;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 10.4px;
+    position: relative;
+    top: 0.4em;
+}
+
+.form-control{
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+    padding-bottom: 0%;
+}
+
+
+
+input[type="email"], #form-email{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+input[type="password"], #form-email{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: relative;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.header-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.button, .btn-primary{
+  width: 100%;
+  display: block;
+  justify-content: center;
+  background-color: #285baa !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: small !important;
+  border-radius: 0.5em !important;
+}
+
+.forgot-password{
+    font-family: 'Roboto' sans-serif;
+    font-size: xx-small;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-small;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.linktag{
+    text-decoration: none;
+    padding-left: 2px;
+}

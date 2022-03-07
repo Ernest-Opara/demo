@@ -1,0 +1,44 @@
+.icon{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    top: -8em;
+    right: 32em;
+    width: 220px;
+    height: 220px;
+    left: -400px;
+}
+
+.War-text{
+    color: white;
+    font-size: 80px;
+    float: right;
+    font-weight: 200;
+    position: relative;
+    top: -2em;
+    right: 0.5em;
+}
+
+.War-text2{
+    color: white;
+    font-size: 180px;
+    float: right;
+    font-weight: 600;
+    position: relative;
+    bottom: 140px;
+    left: 35px;
+    right: 2rem;
+    left: 0.65em;
+}
+
+.War-text3{
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    float: right;
+    letter-spacing: 10px;
+    position: relative;
+    left: 380px;
+    top: 100px;
+}
